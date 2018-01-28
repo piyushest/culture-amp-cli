@@ -1,0 +1,33 @@
+To run this program you need to have java 1.8/java 1.7 in your system.
+Need maven to run this.
+Once you have the maven and all.
+Go to the project directory 
+
+give commands:
+mvn package
+
+to run the program:
+ java -jar target/culture-amp-cli-0.0.1-SNAPSHOT.jar “<path of question survey>” “path of answer survey”
+
+all the results will be shown on the console.
+
+example of result in console is
+
+Total number of people participated 5
+Total number of people not participated 0
+Total Percentage of people participated 100.0
+For question Number 1 The average rating is 4.6
+For question Number 2 The average rating is 5.0
+For question Number 3 The average rating is 5.0
+For question Number 4 The average rating is 3.6
+
+
+There are lots of things to make this production ready. But it is very close to production ready. There are several scenarios where we can discuss what we want to do for example when the file is not found how we want to handle that scenario.
+or when a particular data is not correct
+or when the input file is not correct
+
+Logging: I have not enabled logging at this moment since the complete program is on CLI we probably must be good with print on console so any information that is required will be printed on console.
+
+Please let me know if you have any questions
+
+Note: The survey files that i have added in project are corrupted my ms excel is creating a problem so for testing please use fresh copy of files.

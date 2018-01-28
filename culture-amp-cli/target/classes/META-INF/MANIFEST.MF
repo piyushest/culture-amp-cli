@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: culture-amp-cli
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: piyush.mittal
+Implementation-Vendor-Id: CultureAmp
+Build-Jdk: 1.8.0_101
+Implementation-URL: http://projects.spring.io/spring-boot/culture-amp-
+ cli/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
